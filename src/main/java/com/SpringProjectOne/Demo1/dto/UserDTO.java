@@ -4,8 +4,7 @@ import lombok.*;
 import org.springframework.context.annotation.Bean;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @Setter
 @Getter
 public class UserDTO {
